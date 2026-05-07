@@ -1,24 +1,17 @@
-target/
-!.mvn/wrapper/maven-wrapper.jar
-!**/src/main/**/target/
-!**/src/test/**/target/
+node_modules/
+/test-results/
+/playwright-report/
+/playwright/.cache/
+/blob-report/
+/.idea/
 
-### IntelliJ IDEA ###
-.idea/
-*.iws
-*.iml
-*.ipr
+# Environment variables
+.env
+.env.local
+.env.*.local
 
-### Eclipse ###
-.apt_generated
-.classpath
-.factorypath
-.project
-.settings
-.springBeans
-.sts4-cache
-
-### NetBeans ###
-.metadata
-bin/
-gen/
+# Log files
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
